@@ -1,6 +1,6 @@
 var config = {
-	"shortDomain": "go.param.me",
-	"defaultRedirect": "https://www.param.me",
+	"shortDomain": "be.dam.cool",
+	"defaultRedirect": "https://www.duck.com",
 	"repo": "abuchachos/go.param.me",
 	"users": ["abuchachos"],
 	"netlify_redirects": true,
