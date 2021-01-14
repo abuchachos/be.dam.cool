@@ -7,8 +7,8 @@ open_issues = repo.get_issues(state="open")
 
 for issue in open_issues:
 	if issue.title == "Add URL":
-		if issue.user.login == "paramt":
-			issue.body = "test --> https://www.param.me/test"
+		if issue.user.login == "abuchachos":
+			issue.body = "test --> https://thouart.gay/test"
 			with open("redirects.csv", "a") as csv:
 				line = issue.body.replace(" --> ", ",")
 				csv.write(line)
