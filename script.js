@@ -13,7 +13,7 @@ function getCSV(file, callback){
 }
 
 function redirect(data){
-  var currentURL = window.location.href.split("go.param.me/")[1];
+  var currentURL = window.location.href.split("thouart.gay/")[1];
   var redirectURL = "";
 
   for(var i = 1; i < data.length - 1; i++){
@@ -27,12 +27,12 @@ function redirect(data){
   }
 
   if(redirectURL === ""){
-    redirectURL = "https://www.param.me";
-    console.log("Invalid URL! Defaulting redirect URL to param.me");
+    redirectURL = "https://duck.com";
+    console.log("Invalid URL! Defaulting redirect URL to duckduckgo");
   }
 
-  console.log("Redirecting");
+  console.log("Using quantum tunneling to bring your destination into existence yesterday...");
   window.location = redirectURL;
 }
 
-getCSV("https://raw.githubusercontent.com/paramt/go.param.me/master/redirects.csv", redirect)
+getCSV("https://raw.githubusercontent.com/abuchachos/go.param.me/master/redirects.csv", redirect)
