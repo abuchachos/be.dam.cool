@@ -1,4 +1,5 @@
-# be.dam.cool [![Netlify Status](https://api.netlify.com/api/v1/badges/eb3c0c7f-104a-49ce-b655-72f4ab080548/deploy-status)](https://app.netlify.com/sites/go-param-me/deploys)
+# be.dam.cool 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb21c0dd-9387-4850-9520-f373c6f954d4/deploy-status)](https://app.netlify.com/sites/be-dam-cool/deploys)
 > A URL shortener for my personal links.
 
 
