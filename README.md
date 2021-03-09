@@ -1,4 +1,4 @@
-# go.param.me [![Netlify Status](https://api.netlify.com/api/v1/badges/eb3c0c7f-104a-49ce-b655-72f4ab080548/deploy-status)](https://app.netlify.com/sites/go-param-me/deploys)
+# be.dam.cool [![Netlify Status](https://api.netlify.com/api/v1/badges/eb3c0c7f-104a-49ce-b655-72f4ab080548/deploy-status)](https://app.netlify.com/sites/go-param-me/deploys)
 > A URL shortener for my personal links.
 
 
@@ -26,10 +26,10 @@ If you'd like to create your own URL shortener, fork this repo, modify [`config.
 ### `config.js`
 | Option | Description | Type | Example |
 | --- | --- | --- | --- |
-| `shortDomain` | The short domain that will redirect to other URLs | `str` | `"go.param.me"` |
-| `defaultRedirect` | The default redirect in case a link that does not exist is requested | `str` | `"https://www.param.me"` |
-| `repo` | The GitHub repo where `redirects.csv` is located | `str` | `"paramt/go.param.me"` |
-| `users` | The list of GitHub users that are allowed to modify the list of redirects by opening an issue | `str[]` | `["paramt"]` |
+| `shortDomain` | The short domain that will redirect to other URLs | `str` | `"be.dam.cool"` |
+| `defaultRedirect` | The default redirect in case a link that does not exist is requested | `str` | `"https://be.dam.cool"` |
+| `repo` | The GitHub repo where `redirects.csv` is located | `str` | `"abuchachos/be.dam.cool"` |
+| `users` | The list of GitHub users that are allowed to modify the list of redirects by opening an issue | `str[]` | `["abuchachos"]` |
 | `netlify_redirects` | Whether or not the script should generate a `_redirects` file (used by Netlify's server-side redirects) | `bool` | `true` |
 | `utm` | Whether or not a UTM code should be appended to the URL when redirecting. *Note: this does not work if server-side redirects are being used*| `bool` | `false` |
 
